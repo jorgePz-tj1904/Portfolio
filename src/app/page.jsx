@@ -3,7 +3,6 @@ import { useEffect, useRef } from 'react';
 import Proyectos from '../components/Proyectos.jsx';
 import Tecnologias from '../components/Tecnologias.jsx';
 import './globals.css'
-// import Tecnologias from '@/components/Tecnologias';
 
 
 export default function Home() {
@@ -120,8 +119,8 @@ export default function Home() {
 
           <section ref={resumen} className='mt-72 flex flex-col-reverse items-center sm:flex-row sm:justify-between sm:mt-5 transition-all duration-500 sm:translate-x-24 opacity-0 mb-56'>
             <div>
-              <p className=' text-sm'>
-                <h1 className=' text-2xl font-bold sm:text-5xl border-b-8 border-orange-600 mb-4'>Soy Jorge Perez</h1>
+              <p className=' text-1xl'>
+                <h1 className=' text-3xl font-bold sm:text-5xl border-b-8 border-orange-600 mb-4'>Soy Jorge Perez</h1>
                 <h2 className=' font-bold'>Desarrollador Full Stack</h2>
                 Siempre he encontrado fascinante explorar cómo las innovaciones tecnológicas transforman nuestro mundo y mejoran la forma en que interactuamos con él. Aunque no cuento con experiencia laboral formal en este momento, mi dedicación y entusiasmo por aprender y enfrentar nuevos desafíos me han impulsado a desarrollar proyectos creativos y funcionales.
                 <br />
