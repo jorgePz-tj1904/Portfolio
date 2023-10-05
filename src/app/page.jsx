@@ -1,8 +1,9 @@
 'use client'
 import { useEffect, useRef } from 'react';
-import Proyectos from '@/components/Proyectos';
-import Tecnologias from '@/components/Tecnologias';
+import Proyectos from '../components/Proyectos.jsx';
+import Tecnologias from '../components/Tecnologias.jsx';
 import './globals.css'
+// import Tecnologias from '@/components/Tecnologias';
 
 
 export default function Home() {
