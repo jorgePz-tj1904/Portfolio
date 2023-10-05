@@ -119,7 +119,7 @@ export default function Home() {
 
           <section ref={resumen} className='mt-72 flex flex-col-reverse items-center sm:flex-row sm:justify-between sm:mt-5 transition-all duration-500 sm:translate-x-24 opacity-0 mb-56'>
             <div>
-              <p className=' text-1xl'>
+              <p className=' text-1xl' >
                 <h1 className=' text-3xl font-bold sm:text-5xl border-b-8 border-orange-600 mb-4'>Soy Jorge Perez</h1>
                 <h2 className=' font-bold'>Desarrollador Full Stack</h2>
                 Siempre he encontrado fascinante explorar cómo las innovaciones tecnológicas transforman nuestro mundo y mejoran la forma en que interactuamos con él. Aunque no cuento con experiencia laboral formal en este momento, mi dedicación y entusiasmo por aprender y enfrentar nuevos desafíos me han impulsado a desarrollar proyectos creativos y funcionales.
@@ -130,7 +130,7 @@ export default function Home() {
                 como javaScript, CSS, HTML, Reactjs, express,SQL.
               </p>
               <div className=' flex justify-center'>
-              <a className=' mt-32 bg-orange-600 p-3 rounded-md shadow-2xl transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer' download='CV-JorgePerez' href="/CV.pdf">Descarga CV</a>
+              <a className=' mt-10 bg-orange-600 p-3 rounded-md shadow-2xl transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer' download='CV-JorgePerez' href="/CV.pdf">Descarga CV</a>
             </div>
             </div>
             <img src="./perfil.jpeg" className=' w-48 h-48 p-2 mt-5 rounded-full sm:w-80 sm:h-80   bg-gradient-to-b from-orange-600 to-orange-900 object-cover' alt="" />
