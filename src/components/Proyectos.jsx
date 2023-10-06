@@ -7,7 +7,7 @@ const Proyectos = () => {
 
                 <div className='flex flex-col justify-between mt-10 px-2 py-3 mx-2 sm:w-96 sm:h-80 text-center bg-gradient-to-b from-orange-600 to-orange-800 shadow-2xl rounded-xl transform transition duration-300 ease-in-out hover:scale-105'>
 
-                    <a target='blank' href="https://todoapp-m1i6046si-jorgepz-tj1904.vercel.app">
+                    <a target='blank' href="https://todoapp-red-phi.vercel.app">
                         <img className=' mx-auto mb-3 shadow-2xl rounded-md' width={150} src="./taskApp.png" alt="" />
                         <h3 className='font-bold text-2xl'>TaskApp</h3>
                         <p>Es una sencilla app de tareas, es usuario puede agregar, modificar y eliminar las tareas correspondientes. Con un diseño minimalista y amigable, </p>
