@@ -2,6 +2,7 @@
 import { useEffect, useRef } from 'react';
 import Proyectos from '../components/Proyectos.jsx';
 import Tecnologias from '../components/Tecnologias.jsx';
+import { Anchor, ConfigProvider, theme } from 'antd';
 import './globals.css'
 
 
@@ -96,6 +97,7 @@ export default function Home() {
     return (
       <div className='overflow-x-hidden'>
 
+
         <div className=' z-10  lg:mt-[100vh] p-5   lg:p-48  bg-gradient-to-b from-[rgb(37,0,50)] to-[rgb(35,3,78)]   text-white text-xl'>
 
           <div id='imagenes'>
@@ -116,6 +118,50 @@ export default function Home() {
 
             <img ref={globoGrande} className='object-contain absolute top-0 left-0 ' src="./img1.png" alt="" />
           </div>
+          
+          <ConfigProvider
+          theme={{
+            // 1. Use dark algorithm
+            algorithm: theme.darkAlgorithm,
+      
+            // 2. Combine dark algorithm and compact algorithm
+            // algorithm: [theme.darkAlgorithm, theme.compactAlgorithm],
+          }}
+          >
+          <Anchor
+            affix={false}
+            className='fixed z-50'
+            items={[
+              {
+                key: '1',
+                href: '#components-anchor-demo-basic',
+                title: 'Basic demo',
+              },
+              {
+                key: '2',
+                href: '#components-anchor-demo-static',
+                title: 'Static demo',
+              },
+              {
+                key: '3',
+                href: '#api',
+                title: 'API',
+                children: [
+                  {
+                    key: '4',
+                    href: '#anchor-props',
+                    title: 'Anchor Props',
+                  },
+                  {
+                    key: '5',
+                    href: '#link-props',
+                    title: 'Link Props',
+                  },
+                ],
+              },
+            ]}
+          />
+          </ConfigProvider>
 
           <section ref={resumen} className='mt-72 flex flex-col-reverse items-center lg:flex-row lg:justify-between lg:mt-5 transition-all duration-500 lg:translate-x-24 opacity-0 mb-56'>
             <div>
@@ -130,8 +176,8 @@ export default function Home() {
                 como javaScript, CSS, HTML, Reactjs, express,SQL.
               </p>
               <div className=' flex justify-center'>
-              <a className=' mt-10 bg-orange-600 p-3 rounded-md shadow-2xl transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer' download='CV-JorgePerez' href="/CV.pdf">Descarga CV</a>
-            </div>
+                <a className=' mt-10 bg-orange-600 p-3 rounded-md shadow-2xl transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer' download='CV-JorgePerez' href="/CV.pdf">Descarga CV</a>
+              </div>
             </div>
             <img src="./perfil.jpeg" className=' w-48 h-48 p-2 mt-5 rounded-full lg:w-80 lg:h-80   bg-gradient-to-b from-orange-600 to-orange-900 object-cover' alt="" />
           </section>
@@ -171,8 +217,9 @@ export default function Home() {
             </p>
             <h5 className=' text-3xl'>Educación formal</h5>
             <ul className=' list-disc'>
-              <li>Escuela Primaria</li>
-              <li>Escuela Secundaria</li>
+              <li>Educación Primaria</li>
+              <li>Educación Secundaria: Humanidades y Ciencias Sociales. </li>
+              <li>Operador de Informática de Oficina.</li>
               <li> Full Stack Web Developer. Henry Bootcamp. 800 horas de cursado teórico-práctico. 2023. <a className=' text-orange-500' href="https://certificates.soyhenry.com/new-cert?id=4e252d24e9f8f06a6fba0ab5d4c2478340919d3f0da1b8544229d9c8a33473ee">Certificado</a></li>
             </ul>
           </section>
