@@ -91,10 +91,10 @@ const Proyectos = () => {
 
                 <div className='mt-10 px-2  py-3 mx-2 w-96 text-center bg-gradient-to-b from-orange-600 to-orange-900 shadow-2xl rounded-xl transform transition duration-300 ease-in-out hover:scale-105 h-80'>
 
-                    <a target='blank' href="https://img-generator-dalle-barpc9uc0-jorgepz-tj1904.vercel.app" >
-                        <img className=' mx-auto mb-3 shadow-2xl rounded-md' width={150} src="./imgGenerator.png" alt="" />
-                        <h3 className='font-bold text-2xl'>ImgGenerator</h3>
-                        <p>Es un generador de imágenes por IA usando la tecnología DALLE consumiendo la api de OpenAI.</p>
+                    <a target='blank' href="https://3-en-raya-rho.vercel.app" >
+                        <img className=' mx-auto mb-3 shadow-2xl rounded-md' width={150} src="./3enraya.png" alt="" />
+                        <h3 className='font-bold text-2xl'>3 En Raya</h3>
+                        <p>Revive la nostalgia del juego clásico que todos alguna vez disfrutamos en las aulas, ahora en una experiencia digital.</p>
 
                         <div className=' flex mt-4'>
 
@@ -104,7 +104,7 @@ const Proyectos = () => {
 
                             <img width="25" height="25" src="https://i.ibb.co/Smrmfj1/icons8-reaccionar-150.png" alt="react" />
 
-                            <img width="25" height="25" src="https://i.ibb.co/N7qgt4D/icons8-tailwind-css-150.png" alt="tailwind_css" />
+                            <img width="25" height="25" src="https://i.ibb.co/dgG6zD8/icons8-css-150.png" alt="css3" />
 
                             <img width="25" height="25" src="https://i.ibb.co/x6dBrww/icons8-nodejs-150.png" alt="node-js" />
 
