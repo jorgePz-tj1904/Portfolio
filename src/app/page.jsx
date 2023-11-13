@@ -194,10 +194,10 @@ export default function Home() {
 
           </section>
 
-          <section className=' mb-56'>
+          <section className=' mb-56' > 
             <div ref={tituloStack} className=' opacity-0 lg:translate-x-24 transition-all duration-500'>
               <h3 className=' font-bold text-4xl border-b-8 border-orange-600 mb-4'>Lenguajes y tecnologías</h3>
-              <p>Estas son las tecnologías con que me he dedicado a perfeccionar.</p>
+              <p>Estas son las tecnologías que me he dedicado a perfeccionar.</p>
             </div>
 
             <div ref={stack} className=' opacity-0 lg:translate-x-24 transition-all duration-500'>
